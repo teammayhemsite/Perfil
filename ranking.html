@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.discordapp.com/emojis/1380340818224877710.webp?size=96">
+    <title>Ranking</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(https://media.discordapp.net/attachments/1304851368791773397/1381084373541060719/uwp4579803.webp?ex=69df944d&is=69de42cd&hm=e0967929085b73c6cb0b8c0ebf8bf749469c1f38ff90839023eb909d02637874&=&format=webp&width=1601&height=864) center/cover no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        .card2 {
+            width: 420px;
+            padding: 30px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .hotbar {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);            
+        }
+
+        .hotbar button {
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;      
+        }
+
+        .mural {
+            display: none;
+        }
+
+        .ativo {
+            display: block;
+        }
+
+        .platinum {
+            width: 370px;
+            padding: 25px;
+            border-radius: 20px;
+            background: rgba(98, 0, 255, 0.08);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(89, 0, 255, 0.5);
+            box-shadow: 0 8px 30px rgba(153, 0, 255, 0.4);
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .premium {
+            width: 370px;
+            padding: 25px;
+            border-radius: 20px;
+            background: rgba(255, 187, 0, 0.08);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 145, 0, 0.5);
+            box-shadow: 0 8px 30px rgba(255, 166, 0, 0.4);
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .black {
+            width: 370px;
+            padding: 25px;
+            border-radius: 20px;
+            background: rgb(153, 153, 153);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgb(110, 110, 110);
+            box-shadow: 0 8px 30px rgb(0, 0, 0);
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .classic {
+            width: 370px;
+            padding: 25px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .perfil {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+
+            position: absolute;
+            top: 25px;
+            left: 7%;
+            transform: translate(-50%, -50%);
+
+            border: 2px solid rgba(255, 255, 255, 0.192);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.151);
+        }
+
+        .ali {
+            position: absolute;
+            right: 1px;
+            top: 1%;
+            text-decoration: none;
+            color: black;
+            width: 390px;
+            padding: 15px;
+            border-radius: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card2">
+        <a href="https://teammayhemsite.github.io/-/index.html" style="text-decoration: none; color: black;">❬ Voltar</a>
+        <H1>Ranking de usuarios</H1>
+        <p>perfis criados até agora.</p>
+
+        <div id="mural1" class="mural ativo">
+            <div class="platinum">
+                <img src="https://i.pinimg.com/1200x/b2/dd/70/b2dd70ac72207c3e0921c73f77a5b0b2.jpg" class="perfil">
+                <a href="krpris.html" class="ali">ƙཞ℘ཞıʂ</a>
+            </div>           
+            <br>
+            <div class="black">
+                <img src="https://media.discordapp.net/attachments/1266630605886591056/1493727090388897973/image.png?ex=69e00542&is=69deb3c2&hm=081bfb6c5d91516ef316720eddcf4f68793a330bb795bbbe9e7f9c1cea878cbd&=&format=webp&quality=lossless"
+                    class="perfil">
+                <a href="vtzadas021.html" class="ali">vtzada</a>
+            </div>
+            <br>
+            <div class="classic">
+                <img src="https://i.pinimg.com/1200x/c4/c1/66/c4c166af0db5250453142b2f7ad0c8c6.jpg" class="perfil">
+                <a href="terunt.html" class="ali">teruntt</a>
+            </div>
+            <br>
+        </div>
+        <!-- mural2-->
+        <div id="mural2" class="mural">
+            <div class="classic">
+                <img src="https://media.discordapp.net/attachments/1494152350309417111/1494152426247291134/6f67689adcaf5f4404d45e5ff7129477.gif?ex=69e19162&is=69e03fe2&hm=ac77ed54f01abda2205f2ac81e001fe071110d82178ceb831b5ef1363e35d005&="
+                    class="perfil">
+                <a href="Js.html" class="ali">Js</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!--Divisa mural-->
+        <br>
+        <div class="hotbar">
+            <button onclick="trocar(1)">1</button>
+            <button onclick="trocar(2)">2</button> 
+        </div>
+    </div>
+    <script>
+        function trocar(num) {
+            let murais = document.querySelectorAll('.mural');
+
+            murais.forEach(m => m.classList.remove('ativo'));
+
+            document.getElementById('mural' + num).classList.add('ativo');
+        }
+    </script>
+
+    </div>
+</body>
+
+</html>
