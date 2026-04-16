@@ -128,7 +128,7 @@ hr {
 
 .embking {
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 50%;
   transform: translateX(-50%);
   background: linear-gradient(145deg,
