@@ -59,7 +59,7 @@
     <title>@|</title>
 </head>
 
-<body>
+<body oncontextmenu="return false">
     <div id="overlay" onclick="entrar()">
         <p style="color: white;">@krpris</p>
         <div class="botao" style="color: rgb(0, 0, 0);">Toque para entrar.</div>
@@ -206,6 +206,20 @@
         }
     </script>
 
+    <script>
+document.addEventListener("keydown", function(e) {
+    if (e.key === "F12") {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.key === "u") {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key === "I") {
+        e.preventDefault();
+    }
+});
+</script>
+    
 </body>
 
 </html>
