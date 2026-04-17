@@ -133,7 +133,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false">
     <div class="card2">
         <a href="https://teammayhemsite.github.io/-/index" style="text-decoration: none; color: black;">❬ Voltar</a>
         <H1>Ranking de usuarios</H1>
@@ -186,6 +186,19 @@
     </script>
 
     </div>
+    <script>
+document.addEventListener("keydown", function(e) {
+    if (e.key === "F12") {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.key === "u") {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key === "I") {
+        e.preventDefault();
+    }
+});
+</script>
 </body>
 
 </html>
