@@ -119,62 +119,64 @@
         animarTitulo();
     </script>
 
-    
-        <div class="cardking">
 
-            <div class="topo"></div>
+    <div class="cardking">
 
-            <img src="https://media.discordapp.net/attachments/1494777919405428827/1494778017191428219/1b953ef0fe7722c76ef634e47c487f43.png?ex=69e3d802&is=69e28682&hm=5f3fb18796f6cacf049bef409ede5a7cf7dbb8d50873147aa989054c1cbda1d1&=&format=webp&quality=lossless"
-                class="perfilking">
+        <div class="topo"></div>
 
-            <div class="conteudoking">
-                <h2 style="font-size: 22px;font-weight: 600;">krpris</h2>
-                <div class="embking">KING</div>
-                <p style="font-size: 14px;opacity: 0.7;">Seu único <span class="destaque">limite</span> é você mesmo.
-                </p>
+        <img src="https://media.discordapp.net/attachments/1494777919405428827/1494778017191428219/1b953ef0fe7722c76ef634e47c487f43.png?ex=69e3d802&is=69e28682&hm=5f3fb18796f6cacf049bef409ede5a7cf7dbb8d50873147aa989054c1cbda1d1&=&format=webp&quality=lossless"
+            class="perfilking">
+        <div class="balao">Seu único <span class="destaque">limite</span> é você mesmo.</div>
 
-                <a href="https://teammayhem.vercel.app/">
-                    <i class="fa-solid fa-right-to-bracket" style="color: white;"></i>
+        <div class="conteudoking">
+            <h2 style="font-size: 22px;font-weight: 600;">krpris</h2><br>
+            <div class="embking">KING</div>
+
+            <DIV class="">
+                <a href="https://www.youtube.com/@krpris" target="_blank">
+                    <i class="fa-brands fa-youtube" style="color: white;"></i>
+                </a>                
+
+                <a href="https://www.tiktok.com/@krpris" target="_blank">
+                    <i class="fa-brands fa-tiktok" style="color: white;"></i>
                 </a>
-                <hr>
-                <div class="icons">
-                    <a href="https://www.youtube.com/@krpris" target="_blank">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
 
-                    <a href="https://discord.gg/utdzwnmBCn" target="_blank">
-                        <i class="fa-brands fa-discord"></i>
-                    </a>
+                <a href="https://www.instagram.com/krpris_" target="_blank">
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                </a>
 
-                    <a href="https://www.tiktok.com/@krpris" target="_blank">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
+                <a href="https://open.spotify.com/user/31mdt2ujboc2nawcpmpbnpnqvheu?si=214c71343d7e4d8d"
+                    target="_blank">
+                    <i class="fa-brands fa-spotify" style="color: white; "></i>
+                </a>
+            </DIV>
 
-                    <a href="https://www.instagram.com/krpris_" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                    <a href="https://open.spotify.com/user/31mdt2ujboc2nawcpmpbnpnqvheu?si=214c71343d7e4d8d"
-                        target="_blank">
-                        <i class="fa-brands fa-spotify"></i>
-                    </a>
-                </div>
+            <hr>
+            <div class="prud"> 
+                <a href="https://discord.gg/utdzwnmBCn" target="_blank">
+                    <i class="fa-brands fa-discord" style="color: white;"> ➫ Coloque sua biografia aqui tambem.</i>
+                </a>                        
             </div>
+            <br>
+            <a href="https://teammayhem.vercel.app/">
+                <i class="fa-solid fa-right-to-bracket" style="color: white;"></i>
+            </a>
         </div>
+    </div>
 
-        <audio id="bg-music" autoplay loop muted>
-            <source src="songkrpris.m4a" type="audio/mpeg">
-        </audio>
+    <audio id="bg-music" autoplay loop muted>
+        <source src="songkrpris.m4a" type="audio/mpeg">
+    </audio>
 
-        <script>
-            document.addEventListener("click", () => {
-                const music = document.getElementById("bg-music");
-                music.muted = false;
-                music.play();
-            });
-        </script>
+    <script>
+        document.addEventListener("click", () => {
+            const music = document.getElementById("bg-music");
+            music.muted = false;
+            music.play();
+        });
+    </script>
 
-        <div style="
+    <div style="
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -185,19 +187,19 @@
   color: white;
   font-size: 14px;
 ">
-            ♫
-            <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.1">
-        </div>
+        ♫
+        <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.1">
+    </div>
 
-        <script>
-            const music = document.getElementById("bg-music");
-            const volumeControl = document.getElementById("volume-control");
-            music.volume = 0.15;
+    <script>
+        const music = document.getElementById("bg-music");
+        const volumeControl = document.getElementById("volume-control");
+        music.volume = 0.15;
 
-            volumeControl.addEventListener("input", () => {
-                music.volume = volumeControl.value;
-            });
-        </script>    
+        volumeControl.addEventListener("input", () => {
+            music.volume = volumeControl.value;
+        });
+    </script>
 
     <script>
         function entrar() {
@@ -207,19 +209,19 @@
     </script>
 
     <script>
-document.addEventListener("keydown", function(e) {
-    if (e.key === "F12") {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.key === "u") {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key === "I") {
-        e.preventDefault();
-    }
-});
-</script>
-    
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "F12") {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.key === "u") {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.shiftKey && e.key === "I") {
+                e.preventDefault();
+            }
+        });
+    </script>
+
 </body>
 
 </html>
