@@ -151,8 +151,10 @@ hr {
 .balao {
   position: absolute;
   top: 110px;
-  left: 40%;
-  transform: translateX(-50%);
+  left: 102px; /* ou o valor que você quiser */
+
+  transform: none;
+  white-space: nowrap;
 
   background: rgb(30, 30, 30);
   backdrop-filter: blur(10px);
