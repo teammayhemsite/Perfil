@@ -164,6 +164,24 @@ hr {
   font-weight: bold;
 }
 
+.embbooster {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(145deg,
+      #ffe5f0 0%,
+      #ffb3d1 20%,
+      #ff80b3 40%,
+      #ff99c2 60%,
+      #ffcce0 80%,
+      #ff66a3 100%);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .balao {
   position: absolute;
   top: 110px;
