@@ -35,7 +35,23 @@
             border: 1px solid red;
             border-radius: 50%;
             transform: translateY(-50%) rotate(-5deg);
-        }        
+        }
+
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(15px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            z-index: 999;
+        }
     </style>
 
     <script src="https://kit.fontawesome.com/eb9af641fe.js" crossorigin="anonymous"></script>
@@ -108,8 +124,7 @@
 
         <div class="topo"></div>
 
-        <img src="https://media.discordapp.net/attachments/1494777919405428827/1494778017191428219/1b953ef0fe7722c76ef634e47c487f43.png?ex=69e3d802&is=69e28682&hm=5f3fb18796f6cacf049bef409ede5a7cf7dbb8d50873147aa989054c1cbda1d1&=&format=webp&quality=lossless"
-            class="perfilking">
+        <img src="https://i.pinimg.com/736x/1c/29/13/1c2913e3e3b516625b6ce62acd63a52a.jpg" class="perfilking">
         <div class="balao">Seu único <span class="destaque">limite</span> é você mesmo.</div>
 
         <div class="conteudoking">
@@ -119,7 +134,7 @@
             <DIV class="">
                 <a href="https://www.youtube.com/@krpris" target="_blank">
                     <i class="fa-brands fa-youtube" style="color: white;"></i>
-                </a>                
+                </a>
 
                 <a href="https://www.tiktok.com/@krpris" target="_blank">
                     <i class="fa-brands fa-tiktok" style="color: white;"></i>
@@ -136,11 +151,16 @@
             </DIV>
 
             <hr>
-            <div class="prud"> 
+            <div class="prud">
                 <a href="https://discord.gg/utdzwnmBCn" target="_blank">
                     <i class="fa-brands fa-discord" style="color: white;"> ➫ Coloque sua biografia aqui tambem.</i>
-                </a>                        
+                </a>
             </div>
+            <br>
+            <div>
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6gPJuowhKVyZbSg49OCdQc?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+
             <br>
             <a href="https://teammayhem.vercel.app/">
                 <i class="fa-solid fa-right-to-bracket" style="color: white;"></i>
