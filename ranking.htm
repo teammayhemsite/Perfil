@@ -34,14 +34,14 @@
             position: fixed;
             bottom: 10px;
             left: 50%;
-            transform: translateX(-50%);            
+            transform: translateX(-50%);
         }
 
         .hotbar button {
             margin: 5px;
             padding: 5px;
             border-radius: 5px;
-            cursor: pointer;      
+            cursor: pointer;
         }
 
         .mural {
@@ -52,7 +52,7 @@
             display: block;
         }
 
-        .platinum {
+        .booster {
             width: 370px;
             padding: 25px;
             border-radius: 20px;
@@ -69,14 +69,26 @@
             width: 370px;
             padding: 25px;
             border-radius: 20px;
-            background: rgba(255, 187, 0, 0.08);
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 145, 0, 0.5);
-            box-shadow: 0 8px 30px rgba(255, 166, 0, 0.4);
+
+            background: linear-gradient(145deg,
+                    rgba(255, 255, 255, 0.15),
+                    rgba(212, 175, 55, 0.35),
+                    rgba(166, 124, 0, 0.35));
+
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+
+            border: 1px solid rgba(255, 215, 0, 0.8);
+
+            box-shadow:
+                inset 0 2px 6px rgba(255, 255, 255, 0.4),
+                inset 0 -2px 6px rgba(0, 0, 0, 0.2),
+                0 10px 35px rgba(0, 0, 0, 0.5),
+                0 0 25px rgba(255, 215, 0, 0.7);
+
             text-align: center;
-            color: rgb(0, 0, 0);
-        }
+            color: #1a1a1a;
+        }        
 
         .black {
             width: 370px;
@@ -140,34 +152,32 @@
         <p>perfis criados até agora.</p>
 
         <div id="mural1" class="mural ativo">
-            <div class="platinum">
+            <div class="premium">
                 <img src="https://i.pinimg.com/1200x/b2/dd/70/b2dd70ac72207c3e0921c73f77a5b0b2.jpg" class="perfil">
                 <a href="krpris.htm" class="ali">ƙཞ℘ཞıʂ</a>
-            </div> 
-            <br>
-            <div class="platinum">
-                <img src="https://i.pinimg.com/1200x/c6/d3/84/c6d384c03d5163d659a35992f9e7886b.jpg" class="perfil">
-                <a href="6e6y.htm" class="ali">6e6y</a>
             </div>
             <br>
-            <div class="black">
-                <img src="https://i.pinimg.com/736x/80/15/22/801522d478d68c959c8c563dc21e762f.jpg"
-                    class="perfil">
+            <div class="premium">
+                <img src="https://i.pinimg.com/736x/80/15/22/801522d478d68c959c8c563dc21e762f.jpg" class="perfil">
                 <a href="vtzadas.htm" class="ali">pzclan</a>
             </div>
             <br>
+            <div class="booster">
+                <img src="https://i.pinimg.com/1200x/c6/d3/84/c6d384c03d5163d659a35992f9e7886b.jpg" class="perfil">
+                <a href="6e6y.htm" class="ali">6e6y</a>
+            </div>
+            <br>        
             <div class="black">
-                <img src="z-Perfil-vtzadas021.png"
-                    class="perfil">
+                <img src="z-Perfil-vtzadas021.png" class="perfil">
                 <a href="vtzadas021.htm" class="ali">vtzada</a>
             </div>
             <br>
+
         </div>
         <!-- mural2-->
         <div id="mural2" class="mural">
             <div class="classic">
-                <img src="z-Perfil-js.gif"
-                    class="perfil">
+                <img src="z-Perfil-js.gif" class="perfil">
                 <a href="Js.htm" class="ali">Js</a>
             </div>
             <br>
@@ -184,7 +194,7 @@
         <br>
         <div class="hotbar">
             <button onclick="trocar(1)">1</button>
-            <button onclick="trocar(2)">2</button> 
+            <button onclick="trocar(2)">2</button>
         </div>
     </div>
     <script>
@@ -199,18 +209,18 @@
 
     </div>
     <script>
-document.addEventListener("keydown", function(e) {
-    if (e.key === "F12") {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.key === "u") {
-        e.preventDefault();
-    }
-    if (e.ctrlKey && e.shiftKey && e.key === "I") {
-        e.preventDefault();
-    }
-});
-</script>
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "F12") {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.key === "u") {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.shiftKey && e.key === "I") {
+                e.preventDefault();
+            }
+        });
+    </script>
 </body>
 
 </html>
