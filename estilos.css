@@ -182,6 +182,26 @@ hr {
   font-weight: bold;
 }
 
+.embPremium {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(145deg,
+#fff8dc 0%,
+#ffd700 20%,
+#f0b00f 35%,
+#ffd700 50%,
+#fff2cc 65%,
+#f5c21a 80%,
+#fff8dc 100%);
+box-shadow: 0 0 10px rgb(255, 196, 0);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .balao {
   position: absolute;
   top: 130px;
