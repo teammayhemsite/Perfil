@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  padding: 15px;
+  padding: 1px;
 }
 
 a {
@@ -229,7 +229,7 @@ box-shadow: 0 0 10px rgb(255, 196, 0);
 .prud-icon {
     min-width: 62px;
     width: 62px;
-    height: 55px;
+    height: 48px;
 
     border-radius: 20px;
 
@@ -256,6 +256,7 @@ box-shadow: 0 0 10px rgb(255, 196, 0);
 
     flex: 1;
 }
+
 
 @media (max-width: 600px) {
 
