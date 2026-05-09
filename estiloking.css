@@ -146,20 +146,21 @@ box-shadow: 0 0 10px rgb(255, 196, 0);
 .balao {
   position: absolute;
 
-  top: 115px;
+  top: 120px;
   left: 105px;
 
   background: rgb(30,30,30);
 
   padding: 10px 15px;
-
   border-radius: 20px;
 
   color: white;
-
   font-size: 13px;
 
-  white-space: nowrap;
+  max-width: 220px;
+
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 /* bolinha */
